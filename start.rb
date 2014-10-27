@@ -30,7 +30,7 @@ def main_loop
     fight(hero, one_monster)
     puts "Status:"
     puts "Hero:\t - " + hero.hp.to_s
-    puts "Monster:\t - " + one_monster.hp.to_s
+    puts "Monster: - " + one_monster.hp.to_s
   end
 end
 
